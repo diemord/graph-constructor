@@ -1,0 +1,43 @@
+:local {
+    .item {
+        height: 50px;
+        line-height: 50px;
+        padding: 0;
+        display: flex;
+        background-color: #FFFFFF;
+        padding-left: 10px;
+    }
+    .name {
+        flex: 3.5;
+    }
+    .grade {
+        flex: 1;
+        text-align: center;
+    }
+    .section {
+        flex: 1;
+        text-align: center;
+    }
+    .gpa {
+        flex: 1;
+        text-align: center;
+    }
+    .rti {
+        flex: 1;
+        text-align: center;
+    }
+    .photo {
+        display: inline-block;
+        vertical-align: middle;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -o-border-radius: 50%;
+        background: #adb1bb url(../../assets/people.svg) no-repeat center center;
+        background-size: 65%;
+        opacity: .2;
+        margin-right: 10px;
+    }
+}

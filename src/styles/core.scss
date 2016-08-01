@@ -1,0 +1,43 @@
+:global {
+  @import 'base';
+  @import 'normalize.css';
+
+  html {
+    box-sizing: border-box;
+  }
+  * {
+      outline: none!important;
+  }
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    background: #dadce2 url("../assets/bg.png") repeat-x;
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  .flex{
+    display: flex;
+  }
+  .main{
+      padding-left: 180px;
+      position: relative;
+  }
+  a {
+    color: #6892dd;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .flex{
+    display: flex;
+  }
+  .full-width{
+    width: 100%;
+  }
+}
