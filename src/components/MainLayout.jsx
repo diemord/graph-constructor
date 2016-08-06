@@ -12,12 +12,12 @@ export default class MainLayout extends React.Component {
 					<ul className={classes.navigation}>
 						<li>
 							<Link to='/students' className={classes["menu-item"]} activeClassName={classes["menu-item--active"]}>
-								Students
+								1
 							</Link>
 						</li>
 						<li>
 							<Link to='/planner' className={classes["menu-item"]} activeClassName={classes["menu-item--active"]}>
-								Lesson plans
+								2
 							</Link>
 						</li>
 					</ul>

@@ -31,7 +31,6 @@ class StudentsListContainer extends React.Component {
 	render() {
 		return (<div className={classes.wrapper}>
 					<div className={classes.list}>
-						{ this.props.students.length ? <StudentsList /> : <LoadingScreen /> }
 					</div>
 			</div>)
 	}
